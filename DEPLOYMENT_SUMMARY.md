@@ -26,11 +26,12 @@
 
 ## 需要你手动完成的步骤 ⚠️
 
-### 1. 安装 Google Chrome（需要 sudo 密码）
+### 1. 安装 Google Chrome ✅
 
+已完成：
 ```bash
-sudo apt install -y /tmp/google-chrome-stable_current_amd64.deb
 google-chrome --version
+# Google Chrome 146.0.7680.80
 ```
 
 ### 2. 安装 Chrome 扩展
@@ -52,11 +53,13 @@ google-chrome --version
 opencli setup
 ```
 
-### 5. 配置 NOTION_TOKEN
+### 5. 配置 NOTION_TOKEN ✅
 
+已完成：
 ```bash
-echo 'export NOTION_TOKEN="ntn_W20522463729fMNRllNHmez9S2hborcKxdkNJhzkgDfc2z"' >> ~/.bashrc
-source ~/.bashrc
+# 已添加到 ~/.bashrc
+# 当前 shell 使用：
+export NOTION_TOKEN="ntn_W20522463729fMNRllNHmez9S2hborcKxdkNJhzkgDfc2z"
 ```
 
 ---

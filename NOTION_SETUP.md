@@ -17,11 +17,9 @@
 8. ✅ 部署检查脚本（`check_deployment.sh`）
 
 ### ⚠️ 待完成（需要你手动操作）
-1. ❌ **安装 Google Chrome**（需要 sudo 密码）
-2. ❌ **安装 Chrome 扩展：Playwright MCP Bridge**
-3. ❌ **在 Chrome 中登录目标平台**（知乎、小红书、B站等）
-4. ❌ **运行 `opencli setup`** 配置 Playwright token
-5. ❌ **配置 NOTION_TOKEN 环境变量**
+1. ❌ **安装 Chrome 扩展：Playwright MCP Bridge**
+2. ❌ **在 Chrome 中登录目标平台**（知乎、小红书、B站等）
+3. ❌ **运行 `opencli setup`** 配置 Playwright token
 
 ---
 
@@ -53,16 +51,12 @@ opencli --version
 
 ## 3. 配置 Chrome 浏览器环境 ⚠️
 
-### 3.1 安装 Google Chrome ❌
+### 3.1 安装 Google Chrome ✅
 
-**需要你手动执行（需要 sudo 密码）：**
-
+已完成：
 ```bash
-# Chrome 安装包已下载到 /tmp
-sudo apt install -y /tmp/google-chrome-stable_current_amd64.deb
-
-# 验证安装
 google-chrome --version
+# Google Chrome 146.0.7680.80
 ```
 
 ### 3.2 安装浏览器扩展 ❌
@@ -111,16 +105,12 @@ opencli setup
 
 ---
 
-## 6. 配置 NOTION_TOKEN ❌
+## 6. 配置 NOTION_TOKEN ✅
 
-**需要你手动执行：**
-
+已完成：
 ```bash
-# 添加到 ~/.bashrc
-echo 'export NOTION_TOKEN="ntn_W20522463729fMNRllNHmez9S2hborcKxdkNJhzkgDfc2z"' >> ~/.bashrc
-
-# 立即生效
-source ~/.bashrc
+# 已添加到 ~/.bashrc
+export NOTION_TOKEN="ntn_W20522463729fMNRllNHmez9S2hborcKxdkNJhzkgDfc2z"
 
 # 验证
 echo $NOTION_TOKEN
